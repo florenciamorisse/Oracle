@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULAR promedio edades familia</h1>
+    <script>
+
+        function saltarLinea(){
+            document.write("<br>");
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        function imprimir(frase){
+            document.write(frase);
+            saltarLinea();
+        }
+        
+        var cantidadDeFamiliares = parseInt(prompt( "Cantidad de familiares?: "));
+        i=1
+        var totalEdad=0;
+
+        while(i<= cantidadDeFamiliares)   {
+            
+            edad= parseInt(prompt( "Ingrese la edad del familiar:"));
+            totalEdad=totalEdad+edad;
+            i=i+1;
+        }  
+        promedio= totalEdad/cantidadDeFamiliares;
+        imprimir("promedio: " +promedio);
+
+
+
+
+        // for(i=1; i==cantidadDeFamiliares; i++){
+
+        //     promedio=0;
+        //     var edad= parseInt(prompt("edad del miembro " + i));
+        //     promedio=promedio+edad;
+        //     imprimir("el promedio de edad de tu familia es: " + (promedio/cantidadDeFamiliares));
+        // }
+         
+
+    //     var edadPadre=43;
+    //     var edadMadre=43;
+    //     var edadNene1= (2022-2001);
+    //     var edadNena=13;
+    //     var edadNene2= 8;
+
+    //      var totalEdad= (edadPadre+edadMadre+edadNene1+edadNena+edadNene2)/5
+
+    //    imprimir("la media de las edades es: " + totalEdad)
+         
+        
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function imprimir(frase){
+            document.write(frase);
+            document.write("<br>");
+        }
+     
+     
+     var numerPensado = Math.round(Math.random()*10);
+     
+
+     var intentos= 3;
+     i=1;
+
+    while(i<=intentos){
+        
+        var numeroLanzado = parseInt(prompt("Qué número decís que es el que pensé?: "));
+
+        if ( numeroLanzado == numerPensado){
+            alert("Usted acertó");
+            break;
+        }
+        else {
+        alert("otra oportunidad: ")
+        
+        }  
+        i++   
+    }
+
+    </script>
+</body>
+</html>
