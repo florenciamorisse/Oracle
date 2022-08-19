@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas width="500" height="500"></canvas>
+
+    <script>
+        var escuadra = document.querySelector("canvas");
+        var pincel = escuadra.getContext("2d");
+
+        pincel.fillStyle = "lightgrey";
+        pincel.fillRect(0,0,500,500);
+
+        pincel.fillStyle = "black";
+        pincel.beginPath();
+        pincel.moveTo(50,50)
+        pincel.lineTo(450,450);
+        pincel.lineTo(50,450);
+        pincel.moveTo(50,450);
+        pincel.lineTo(450,450);
+        pincel.fill();
+
+        pincel.fillStyle = "white"
+        pincel.beginPath();
+        pincel.moveTo(100,175);
+        pincel.lineTo(100,400);
+        pincel.lineTo(325,400);
+        pincel.moveTo(100,400);
+        pincel.lineTo(275,400);
+        pincel.fill();
+
+
+    </script>
+
+</body>
+</html>
