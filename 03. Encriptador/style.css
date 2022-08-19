@@ -1,0 +1,36 @@
+body{
+    background-color: #E5E5E5;
+}
+#logo{
+    width: 40px;
+}
+.card-img-top{
+    width: 90%;
+    margin-top: 30px;
+}
+.negrita{
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;    
+}
+.colores{
+    background-color:  #fd7e14;
+}
+.card{
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 24px 0px rgba(0, 0, 0, 1);
+    border-radius: 32px;
+}
+/* .encriptar{
+    background-color: #E5E5E5;
+} */
+/* .rectangulo{
+    position: relative;
+    width: 400px;
+    height: 550px;    
+    top: 40px;
+    background: #FFFFFF;  
+    box-shadow: 0px 15px 24px 0px rgba(0, 0, 0, 1);
+    border-radius: 32px;
+} */
