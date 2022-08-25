@@ -1,0 +1,102 @@
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+body{
+    background-color: #E5E5E5;
+}
+.encriptar{
+    /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.desencriptar{
+    /* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 328px;
+height: 67px;
+
+/* Light gray */
+
+background: #D8DFE8;
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.input-texto{
+    /* Rectangle 1 */
+
+
+position: absolute;
+width: 400px;
+height: 944px;
+left: 1000px;
+top: 40px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+.logo{
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.mensaje{
+
+    background-image:url("img/Muñeco.png") ;   
+position: relative;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+}
