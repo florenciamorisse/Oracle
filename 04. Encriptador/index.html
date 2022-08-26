@@ -11,7 +11,7 @@
     <div class="container">
       <div class="logo">
         <img class="logoImg" src="/img/Vector.png" alt="logo de alura" />
-        <h1 class="tittle">Encriptador de mensajes</h1>
+        <!-- <h1 class="tittle">Encriptador de mensajes</h1> -->
       </div>
       <div class="left">
         <input
@@ -22,11 +22,19 @@
       </div>
       <div class="right">
         <img id="imagenNene" src="/img/Muñeco.png" alt="" />
-        <h1 id="texto1">Ningún mensaje fue encontrado</h1>
-        <textarea id="texto2" name="" id="" cols="80" rows="8">Ingrese el texto que desea encriptar</textarea>
+        <h2 id="texto1">
+          Ningún mensaje fue<br />
+          encontrado
+        </h2>
+        <textarea id="texto2" name="" id="" cols="80" rows="8">
+                Ingrese el texto que desea encriptar
+        </textarea>
       </div>
       <div class="left-button">
-        <p>Sólo minúculas y sin tilde</p>
+        <div class="cont-text-over-btn">
+          <img class="vector2" src="/img/Vector2.png" alt="" />
+          <p class="text-over-btn">Sólo minúculas y sin tilde</p>
+        </div>
         <button type="button" id="btn-encriptar">Encriptar</button>
         <button type="button" id="btn-desencriptar">Desencriptar</button>
       </div>
