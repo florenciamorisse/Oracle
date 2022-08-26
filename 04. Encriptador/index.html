@@ -14,11 +14,10 @@
         <!-- <h1 class="tittle">Encriptador de mensajes</h1> -->
       </div>
       <div class="left">
-        <input
+        <textarea
           class="text-input"
-          type="text"
-          placeholder="Ingrese el texto aquí"
-        />
+          type="text"          
+        >Ingrese el texto aquí</textarea>
       </div>
       <div class="right">
         <img id="imagenNene" src="/img/Muñeco.png" alt="" />
@@ -26,14 +25,15 @@
           Ningún mensaje fue<br />
           encontrado
         </h2>
-        <textarea id="texto2" name="" id="" cols="80" rows="8">
-                Ingrese el texto que desea encriptar
+        <textarea  class="texto2" id="texto2" name="" id="" cols="18" rows="8">
+                Ingrese el texto que desea encriptar o desencriptar
         </textarea>
+        <button class="btn-copy">copiar</button>
       </div>
       <div class="left-button">
         <div class="cont-text-over-btn">
           <img class="vector2" src="/img/Vector2.png" alt="" />
-          <p class="text-over-btn">Sólo minúculas y sin tilde</p>
+          <p class="text-over-btn">Sólo minúsculas y sin tilde</p>
         </div>
         <button type="button" id="btn-encriptar">Encriptar</button>
         <button type="button" id="btn-desencriptar">Desencriptar</button>

@@ -1,0 +1,1 @@
+const inputTexto = document.querySelectorbyId("texto2")
