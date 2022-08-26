@@ -128,7 +128,7 @@ body{
     
 
 }
-#btn-encriptar{
+.encriptar{
     padding: 24px;
     width: 328px;
     height: 67px;
@@ -139,7 +139,7 @@ body{
 
 
 }
-#btn-desencriptar{
+.desencriptar{
     padding: 24px;
     width: 328px;
     height: 67px;
