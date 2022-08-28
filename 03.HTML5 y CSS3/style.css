@@ -1,5 +1,6 @@
-Body {
-  
+
+.tituloPrincipal{
+    padding-left: 30px;
 }
 #banner{
    width: 100%; 
@@ -8,7 +9,7 @@ Body {
     background: #cccccc;
     padding: 20px;
 }
-h1 {
+.tituloCentrado {
   text-align: center;
 }
 p {
@@ -24,9 +25,7 @@ em strong {
     background: #ffffff;
     padding: 30px;
 }
-h2{
-    text-align: center;
-}
+
 .items{
     font-style: italic;
 }
