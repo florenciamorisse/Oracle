@@ -253,3 +253,76 @@ p:first-line{
   width: 560px;
   margin:1em auto;
 }
+
+@media screen and (max-width: 480px){
+  h1{
+    text-align: center;
+|
+  }
+  h1 img{
+    width: 100px;
+  }
+  nav{
+    position: static;
+    margin-left: 20%;
+    
+  }
+  nav ul li a{
+    font-size: 10px;
+    
+  }
+  .principal{
+    padding: 1em ;
+  }
+  .titulo-principal{
+    font-size: 18px;
+  }
+  .principal p:not(#mision){
+    font-size: 13px;
+    text-align: justify;
+  }
+  #mision{
+    font-size: 12px;
+    text-align: center;
+    font-style: normal;   
+
+  }
+   
+  .map{
+    padding: 1em;
+  }
+  .map p{
+    margin: 0 0 1em;
+    font-size: 14px;
+
+  }
+  .diferenciales{
+  padding:  0 1em 1em 1em;
+  }
+  .diferenciales h3{
+    margin-bottom: 5px;
+  }
+  
+
+  .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video{
+    width: auto;
+  }
+  .lista-diferenciales, .imagen-diferenciales{
+    width: 100%;
+    margin: 0.5em 0;
+
+  }
+  .lista-diferenciales{
+    font-size: 14px;
+  }
+  footer{
+    padding: 0 auto;
+  }
+  footer > img{
+    width: 100px;
+  }
+  .copyright{
+    font-size: 10px;
+  }
+
+}
