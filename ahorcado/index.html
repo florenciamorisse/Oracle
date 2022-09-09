@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ahorcado</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Requisitos:
 - Debe funcionar solo con letras mayúsculas;
 - No deben ser utilizadas letras con acentos ni caracteres especiales;
@@ -23,16 +29,23 @@
 Extras:
 - La página debe tener un campo para inserción de texto con la finalidad de adicionar nuevas palabras al juego, e un botón "Agregar palabra". -->
     <header>
-        <img class="logo" src="/img/Vector.png" alt="logo alura">
+      <img class="logo" src="/img/logo.jpg" alt="logo alura" />
     </header>
     <main>
-        <div class="juego"></div>
-        <div class="btn-container">
-            <button class="btn-iniciar" type="button">Iniciar Juego</button>
+      <div class="container-titulo">
+        <p class="title">Ahorcado</p>
+      </div>
+      <div class="container-button">
+        <input class="button" type="button" value="INICIAR  JUEGO" />
+      </div>
+      <div class="juego">
+        <canvas class="desaparecer"> </canvas>
+        <div class="container-button desaparecer">
+          <input class="button" type="button" value="Nuevo Juego" />
+          <input class="button" type="button" value="Desistir" />
         </div>
+      </div>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>

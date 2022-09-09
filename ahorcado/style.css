@@ -1,27 +1,48 @@
+* {
+  font-family: "Uncial Antiqua", cursive;
+}
+body {
+  background-image: url(/img/fondo.jpg);
+  background-position: center center;
+  background-size: cover;
+  min-height: 95vh;
+}
+.logo {
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 80px;
+  border-radius: 10px;
+}
 
-body{
-    background-image: url(/img/fondo.jpg);
-    background-position: center center;
-    background-size: cover;
-    min-height: 100vh;
+.container-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
-.logo{
-    margin-top: 100px;
-    margin-left: 100px;
-    height: 60px;    
+.title {
+  font-size: 80px;
+  text-shadow: 6px 5px 5px white;
 }
-.btn-iniciar{
-    color: whitesmoke;
-    font-size: 40px;
-    padding: 5px;
-    background-color: grey;
-    border: none;
-    border-radius: 5px;
-    box-shadow:10px 5px 5px black ;
-    text-shadow: 4px 4px 4px black;
-    margin-top: 12%;
-    margin-left: 44%;
+.container-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 0%;
 }
-.desaparecer{
-    display: none;
+.button {
+  color: whitesmoke;
+  font-size: 40px;
+  padding: 5px;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px black;
+  text-shadow: 4px 4px 4px black;
+  cursor: pointer;
+}
+.button:hover {
+  font-size: 42px;
+}
+
+.desaparecer {
+  display: none;
 }
