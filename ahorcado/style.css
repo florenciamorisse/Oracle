@@ -42,6 +42,20 @@ body {
 .button:hover {
   font-size: 42px;
 }
+footer{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 340px;
+}
+footer p{
+    font-size: 20px;
+    text-shadow: 5px 5px 5px white;
+    margin-bottom: 0;
+}
+footer img{
+    height: 70px;
+}
 
 .desaparecer {
   display: none;
