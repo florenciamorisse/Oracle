@@ -65,7 +65,7 @@ body{
     margin-top: 168px;
     width: 577px;
     height: 48px;
-    color: #0A3871;
+    
     font-size: 20px;
     border: none;
     outline: none;
@@ -78,6 +78,9 @@ body{
     resize: none;
     overflow: hidden;
     
+}
+::placeholder{
+    color: #0A3871;
 }
 .cont-text-over-btn{
     display: flex;
@@ -160,4 +163,18 @@ body{
     color: #0A3871;
     display: none;
 
+}
+.texto-resultado{
+    /* height: 781px;
+width: 336px;
+left: 1032px;
+top: 72px; */
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+visibility: hidden;
 }
