@@ -59,7 +59,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 220px;
+  margin-top: 260px;
 }
 footer p {
   font-size: 20px;
@@ -76,4 +76,7 @@ footer img {
 .pag2{
     margin: 0;    
 }
+.pag2footer {
+    margin-top: 20px;}
+
 
