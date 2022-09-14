@@ -14,8 +14,17 @@ function iniciarJuego() {
     juego.classList.remove("desaparecer");
     inicio.classList.add("desaparecer");
 
+    elegirPalabraSecreta();
 }
 
+let palabras = ["ALURA","ORACLE","ONE", "HTML","JAVASCRIPT"];
+let palabraSecreta= "";
+
+function elegirPalabraSecreta(){
+    let palabra = palabras[Math.floor(Math.random()* palabras.length)];
+    palabraSecreta = palabra;
+    console.log(palabraSecreta);
+}
 
 
 var pantalla = document.querySelector('canvas');
