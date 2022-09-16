@@ -101,5 +101,21 @@ function dibujarLineas(){
     pincel.closePath();
 }
 
+$(document).ready(function(){
+    $(document).on('keydown', function(event){ 
+        if (event.key == "Escape"){
+              Swal.fire(
+                {
+                    title: "Querés salir del juego?",
+                    icon: "question",
+                    showConfirmButton: true,
+                    confirmButtonText: "Usa el botón Desistir", 
+                    confirmButtonColor: "grey"
+                    }                
+            )}            
+    })
+})
+
+
 
 
