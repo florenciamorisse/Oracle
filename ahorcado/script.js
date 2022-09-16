@@ -4,6 +4,9 @@ var contenedorTitulo= document.querySelector(".container-titulo");
 var footer= document.querySelector(".footer");
 var juego= document.querySelector(".juego"); 
 var inicio= document.getElementById("inicio");
+var btnNuevoJuego= document.querySelector(".nuevo_juego");
+
+btnNuevoJuego.addEventListener("click", iniciarJuego);
 
 btnInicio.addEventListener("click", iniciarJuego);
 

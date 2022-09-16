@@ -52,6 +52,9 @@ body {
   text-shadow: 4px 4px 4px black;
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 /* .button:hover {
   font-size: 42px;
 } */
