@@ -1,0 +1,53 @@
+.flexContainer:last-child{
+    margin-top: 2em;
+}
+body{
+    margin: 10;
+    padding: 0;
+}
+div{
+    height: 50px;
+    width: 50px;
+}
+div:nth-child(1){
+    background-color: red;
+    
+ }
+ div:nth-child(2){
+    background-color: blue;
+ }
+ div:nth-child(3){
+    background-color: green;
+ }
+ div:nth-child(4){
+    background-color: yellow;
+ }
+ div:nth-child(5){
+    background-color:pink;
+ }
+ div:nth-child(6){
+    background-color: black;
+ }
+ div:nth-child(7){
+    background-color: orange;
+ }
+ div:nth-child(8){
+    background-color:silver;
+ }
+ .flexContainer{
+    /* height: 800px; */
+    display: flex;
+    /* justify-content: space-around;
+    align-items: center;
+    flex-direction: column; */
+ }
+ .flexItem{
+    flex-grow: 1;
+    flex-shrink: 0;
+ }
+ .primero{
+    flex-basis: 200px;
+    flex-grow: 0;
+ }
+ 
+
